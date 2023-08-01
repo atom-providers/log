@@ -3,7 +3,7 @@ module github.com/atom-providers/log
 go 1.18
 
 require (
-	github.com/rogeecn/atom v1.0.4
+	github.com/rogeecn/atom v1.0.6
 	go.uber.org/zap v1.24.0
 )
 
