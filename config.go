@@ -18,6 +18,7 @@ func DefaultProvider() container.ProviderContainer {
 
 type Config struct {
 	Level Level
+	Debug bool
 }
 
 type Level int8
