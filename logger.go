@@ -27,7 +27,8 @@ func Provide(opts ...opt.Option) error {
 var defaultLogger *Logger
 
 type Logger struct {
-	Logger *zap.SugaredLogger
+	Logger    *zap.SugaredLogger
+	RawLogger *zap.Logger
 }
 
 func (l *Logger) LevelWriter(level Level) *LevelWriter {

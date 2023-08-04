@@ -36,5 +36,5 @@ func newZapLogger(conf *Config) (*Logger, error) {
 	if err != nil {
 		return nil, err
 	}
-	return &Logger{Logger: logger.Sugar()}, nil
+	return &Logger{Logger: logger.Sugar(), RawLogger: logger}, nil
 }
